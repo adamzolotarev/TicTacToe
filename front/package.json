@@ -1,0 +1,36 @@
+{
+  "name": "TicTacToe",
+  "version": "1.0.0",
+  "description": "Playing with Knockout",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-open": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamzolotarev/TicTacToe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamzolotarev/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/adamzolotarev/TicTacToe#readme"
+}

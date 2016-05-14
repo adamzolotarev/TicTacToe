@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Clicker</title>
+</head>
+<body>
+    <div  class="container">
+    <table class="table table-bordered">
+    <tbody>    
+
+      <tr data-bind="foreach: squares">  
+       <!-- ko if: row() === 1 -->      
+            <td class ="col-md-2" >
+                <img width="100" height="100" src="" alt="" data-bind="click: $parent.squareClick, attr: {src: imgSrc}">
+            </td>    
+        <!-- /ko -->     
+        </div>
+      </tr>
+
+      <tr data-bind="foreach: squares">  
+       <!-- ko if: row() === 2 -->      
+            <td class ="col-md-2" >
+                <img width="100" height="100" src="" alt="" data-bind="click: $parent.squareClick, attr: {src: imgSrc}">
+            </td>    
+        <!-- /ko -->     
+        </div>
+      </tr>
+
+      <tr data-bind="foreach: squares">  
+       <!-- ko if: row() === 3 -->      
+            <td class ="col-md-2" >
+                <img width="100" height="100" src="" alt="" data-bind="click: $parent.squareClick, attr: {src: imgSrc}">
+            </td>    
+        <!-- /ko -->     
+        </div>
+      </tr>
+    
+
+    <!--   <tr>
+      
+        <td class ="col-md-2">
+            <img width="100" height="100" src="" alt="" data-bind="click: $parent.squareClick, attr: {src: imgSrc}">
+        </td>        
+      
+      </tr>   -->
+
+      <!-- <tr data-bind ="if: position === 7">      
+      
+        <td class ="col-md-2">Test3</td>
+        <td class ="col-md-2">Doe</td>
+        <td class ="col-md-2">john@example.com</td>
+        
+      </tr>  
+       -->
+    </tbody>
+    </table>
+   <!--  <div class = "row">
+        <div data-bind="foreach: squares">
+            <div class="col-md-4">
+                <img width="100" height="100" src="" alt="" 
+                data-bind="click: $parent.squareClick, attr: {src: imgSrc}">
+            </div>        
+        </div>
+    </div> -->
+<!--         <div class="row">
+    <div class="col-sm-6" style="background-color:yellow;">
+      <p>Lorem ipsum...</p>
+    </div>
+    <div class="col-sm-6" style="background-color:pink;">
+      <p>Sed ut perspiciatis...</p>
+    </div>
+  </div> -->
+    </div>
+		
+	
+ 
+   <!--  <div data-bind="with: currentCat()" class="row">
+
+        <h2 data-bind="text: name"></h2>
+        <h3 data-bind="text: catLevel"></h3>
+        <div data-bind="text: clickCount"></div>
+
+        <img src="" alt="cute cat" data-bind="click: $parent.incrementCounter, attr: {src: imgSrc}">
+
+        <ul data-bind="foreach: nickNames" class="inline">
+    		<li data-bind="text: $data"></li>
+    	</ul>
+
+    </div> -->
+   
+    <script src="scripts/knockout-3.4.0.js"></script>
+    <script src="scripts/bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bundle.css">
+</body>
+</html>
