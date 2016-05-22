@@ -9,6 +9,7 @@
   "devDependencies": {
     "bootstrap": "^3.3.6",
     "browserify": "^13.0.1",
+    "eslint-config-defaults": "^9.0.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.3.1",
